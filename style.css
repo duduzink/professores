@@ -1,1 +1,26 @@
 *{margin:0; padding:0;}
+
+header {
+    height: 150px;
+    border: 1px solid red;
+}
+
+header ul{
+    display: flex;
+    background: black;
+  
+}
+
+header ul li{
+    margin: 0 15px;
+    list-style: none;
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+      color: white;
+}
+
+header ul li a:hover{
+    color: yellow;
+}
